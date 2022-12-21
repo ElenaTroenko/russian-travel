@@ -1,0 +1,10 @@
+.header__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  border-bottom: 1px solid #fff;
+}
