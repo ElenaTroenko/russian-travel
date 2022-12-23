@@ -1,10 +1,12 @@
 .header__link {
   text-decoration: none;
   color: #fff;
+  transition: opacity 0.3s ease;
 }
 
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
   border-bottom: 1px solid #fff;
+  opacity: 0.5;
 }

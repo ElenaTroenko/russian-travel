@@ -1,8 +1,22 @@
 .page {
-  min-width: 1280px;
+  width: 100vw;
   background-color: #2A2C2F;
   padding: 0 48px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
+  --webkit-font-smoothing: antialiased;
+  --moz-osx-font-smoothing: grayscale;
   color: white;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    padding: 0 16px;
+  }
 }
