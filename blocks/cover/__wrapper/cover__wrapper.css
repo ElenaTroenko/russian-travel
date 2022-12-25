@@ -1,0 +1,33 @@
+.cover__wrapper {
+  position: absolute;
+  top: 245px; 
+  padding: 0 calc(50% - 280px);
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__wrapper {
+    top: 195px;
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__wrapper {
+    top: 115px;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 767px) {
+  .cover__wrapper {
+    max-width: 512px;
+    padding: 0 calc(50% - 256px);
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .cover__wrapper {
+    min-width: 288px;
+    padding: 0 calc(50% - 144px);
+    top: 33px;
+  }
+}
