@@ -5,8 +5,6 @@
 }
 
 .header__link:hover,
-.header__link:focus,
-.header__link:active {
-  border-bottom: 1px solid #fff;
+.header__link:focus{
   opacity: 0.5;
 }

@@ -10,15 +10,10 @@
   }
 }
 
-@media screen and (max-width: 751px) {
+@media screen and (max-width: 767px) {
   .place__website {
     max-width: 288px;
     align-self: center;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .place__website {
-    align-self: flex-start;
+    margin: 0 16px;
   }
 }
